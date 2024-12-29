@@ -20,5 +20,5 @@ defmodule MorildWeb.Gettext do
 
   See the [Gettext Docs](https://hexdocs.pm/gettext) for detailed usage.
   """
-  use Gettext, otp_app: morild
+  use Gettext, otp_app: :morild
 end

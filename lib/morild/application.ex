@@ -9,7 +9,7 @@ defmodule Morild.Application do
   def start(_type, _args) do
     children = [
       MorildWeb.Telemetry,
-      {DNSCluster, query: Application.get_env(morild, :dns_cluster_query) || :ignore},
+      {DNSCluster, query: Application.get_env(:morild, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: Morild.PubSub},
       # Start the Finch HTTP client for sending emails
       {Finch, name: Morild.Finch},

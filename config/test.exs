@@ -2,13 +2,13 @@ import Config
 
 # We don't run a server during test. If one is required,
 # you can enable the server option below.
-config morild, MorildWeb.Endpoint,
+config :morild, MorildWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
   secret_key_base: "SCre/ywAa3R51+6WRbCnvyvqhdsDXUigbDRg+DTyBPVONde0cJu3V+lLYwqGLtTk",
   server: false
 
 # In test we don't send emails
-config morild, Morild.Mailer, adapter: Swoosh.Adapters.Test
+config :morild, Morild.Mailer, adapter: Swoosh.Adapters.Test
 
 # Disable swoosh api client as it is only required for production adapters
 config :swoosh, :api_client, false

@@ -2,10 +2,18 @@ defmodule MorildWeb.Router do
   use MorildWeb, :router
 
   pipeline :browser do
-    plug :accepts, ["html"]
+    plug :accepts, [
+      "html",
+      "swiftui"
+    ]
+
     plug :fetch_session
     plug :fetch_live_flash
-    plug :put_root_layout, html: {MorildWeb.Layouts, :root}
+
+    plug :put_root_layout,
+      html: {MorildWeb.Layouts, :root},
+      swiftui: {MorildWeb.Layouts.SwiftUI, :root}
+
     plug :protect_from_forgery
     plug :put_secure_browser_headers
   end
@@ -26,7 +34,7 @@ defmodule MorildWeb.Router do
   # end
 
   # Enable LiveDashboard and Swoosh mailbox preview in development
-  if Application.compile_env(morild, :dev_routes) do
+  if Application.compile_env(:morild, :dev_routes) do
     # If you want to use the LiveDashboard in production, you should put
     # it behind authentication and allow only admins to access it.
     # If your application does not have an admins-only section yet,

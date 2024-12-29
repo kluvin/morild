@@ -7,11 +7,11 @@
 # General application configuration
 import Config
 
-config morild,
+config :morild,
   generators: [timestamp_type: :utc_datetime]
 
 # Configures the endpoint
-config morild, MorildWeb.Endpoint,
+config :morild, MorildWeb.Endpoint,
   url: [host: "localhost"],
   adapter: Bandit.PhoenixAdapter,
   render_errors: [
@@ -28,7 +28,7 @@ config morild, MorildWeb.Endpoint,
 #
 # For production it's recommended to configure a different adapter
 # at the `config/runtime.exs`.
-config morild, Morild.Mailer, adapter: Swoosh.Adapters.Local
+config :morild, Morild.Mailer, adapter: Swoosh.Adapters.Local
 
 # Configure esbuild (the version is required)
 config :esbuild,
@@ -59,6 +59,32 @@ config :logger, :console,
 
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
+
+config :phoenix_template, :format_encoders, [
+  swiftui: Phoenix.HTML.Engine
+]
+
+config :mime, :types, %{
+  "text/styles" => ["styles"],
+  "text/swiftui" => ["swiftui"]
+}
+
+config :live_view_native, plugins: [
+  LiveViewNative.SwiftUI
+]
+
+config :phoenix, :template_engines, [
+  neex: LiveViewNative.Engine
+]
+
+config :live_view_native_stylesheet,
+  content: [
+    swiftui: [
+      "lib/**/swiftui/*",
+      "lib/**/*swiftui*"
+    ]
+  ],
+  output: "priv/static/assets"
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

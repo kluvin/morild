@@ -1,3 +1,3 @@
 defmodule Morild.Mailer do
-  use Swoosh.Mailer, otp_app: morild
+  use Swoosh.Mailer, otp_app: :morild
 end

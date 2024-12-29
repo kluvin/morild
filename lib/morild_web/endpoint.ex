@@ -1,5 +1,5 @@
 defmodule MorildWeb.Endpoint do
-  use Phoenix.Endpoint, otp_app: morild
+  use Phoenix.Endpoint, otp_app: :morild
 
   # The session will be stored in the cookie and signed,
   # this means its contents can be read but not tampered with.
@@ -21,7 +21,7 @@ defmodule MorildWeb.Endpoint do
   # when deploying your static files in production.
   plug Plug.Static,
     at: "/",
-    from: morild,
+    from: :morild,
     gzip: false,
     only: MorildWeb.static_paths()
 
@@ -30,6 +30,7 @@ defmodule MorildWeb.Endpoint do
   if code_reloading? do
     socket "/phoenix/live_reload/socket", Phoenix.LiveReloader.Socket
     plug Phoenix.LiveReloader
+    plug LiveViewNative.LiveReloader
     plug Phoenix.CodeReloader
   end
 

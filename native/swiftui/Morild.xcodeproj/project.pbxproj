@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		106A7C44778625A798949E83 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDA89DC51C204A740D9AAEA /* ErrorView.swift */; };
+		2C1DA1B2405D2A12A0681E04 /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F3C882420F769D8526A36 /* ReconnectingView.swift */; };
+		33164CE396073FF8F2B41783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82F8FC9267D64EFC0A24034 /* Assets.xcassets */; };
+		35AAB8CD7D675E08E158DCAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667D820C21815B7ACA2C0783 /* ContentView.swift */; };
+		3C18EC87B5EF72944AF44065 /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F3C882420F769D8526A36 /* ReconnectingView.swift */; };
+		3DD942978ADC2CD2FB77C094 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = 30355CF15B3CBBB6207AFB2C /* LiveViewNative */; };
+		3E9019DB575EA0F66DB6B7A5 /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8C48CC7D547EA322461287 /* DisconnectedView.swift */; };
+		44119940C1FA0CE59F44A519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82F8FC9267D64EFC0A24034 /* Assets.xcassets */; };
+		500502ACA46CC9EE9006DC4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC588DB05EAC4B5B18350F2E /* Preview Assets.xcassets */; };
+		512BA5B049DFDD70E6037802 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = 2106F84F3538CFB7824302A5 /* LiveViewNative */; };
+		5900ECC2D96D0DEB6B8F11E0 /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = 6F1C5BA250D15D8D756FF756 /* LiveViewNativeLiveForm */; };
+		5A6581F205CA0618B77726B5 /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = A1F95BDE20405F5006B28533 /* LiveViewNativeLiveForm */; };
+		6BFDC27919082FA165FEF50B /* Morild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A5E81B2AA4D3A20F973B9 /* Morild.swift */; };
+		8A7F7881D9A0CCD950FEE24C /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C584C5F1F27E29A022275DA /* ConnectingView.swift */; };
+		9E828AA0E23842EF31358E7E /* Morild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A5E81B2AA4D3A20F973B9 /* Morild.swift */; };
+		A9EB8BF0F78D6061D5E1CF31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667D820C21815B7ACA2C0783 /* ContentView.swift */; };
+		AF6F84FE4C08AE3F683469F6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDA89DC51C204A740D9AAEA /* ErrorView.swift */; };
+		C0E44DF2AA235E045FE4594C /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C584C5F1F27E29A022275DA /* ConnectingView.swift */; };
+		DFC89B17AED5A24A5242F919 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC588DB05EAC4B5B18350F2E /* Preview Assets.xcassets */; };
+		EF2AE2C8C4F259D52B7040D0 /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8C48CC7D547EA322461287 /* DisconnectedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CD5C4040E7220A4EE0F6265 /* Morild Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Morild Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		249F3C882420F769D8526A36 /* ReconnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconnectingView.swift; sourceTree = "<group>"; };
+		4F8C48CC7D547EA322461287 /* DisconnectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectedView.swift; sourceTree = "<group>"; };
+		667D820C21815B7ACA2C0783 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8191239995B894B11859277C /* Morild.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Morild.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C584C5F1F27E29A022275DA /* ConnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingView.swift; sourceTree = "<group>"; };
+		9D4A5E81B2AA4D3A20F973B9 /* Morild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Morild.swift; sourceTree = "<group>"; };
+		E82F8FC9267D64EFC0A24034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC588DB05EAC4B5B18350F2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFDA89DC51C204A740D9AAEA /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B58204B21A3CA059BD73899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD942978ADC2CD2FB77C094 /* LiveViewNative in Frameworks */,
+				5900ECC2D96D0DEB6B8F11E0 /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3950ADCF965E532F0B44C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512BA5B049DFDD70E6037802 /* LiveViewNative in Frameworks */,
+				5A6581F205CA0618B77726B5 /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3644601DD32EB2C338D3AE20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CD5C4040E7220A4EE0F6265 /* Morild Watch App.app */,
+				8191239995B894B11859277C /* Morild.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBA634F773C34357A626147E = {
+			isa = PBXGroup;
+			children = (
+				EE26D434425FFBBB03E7EFF5 /* Morild */,
+				3644601DD32EB2C338D3AE20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE21EFA37038496725D095B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC588DB05EAC4B5B18350F2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE26D434425FFBBB03E7EFF5 /* Morild */ = {
+			isa = PBXGroup;
+			children = (
+				DE21EFA37038496725D095B9 /* Preview Content */,
+				E82F8FC9267D64EFC0A24034 /* Assets.xcassets */,
+				9C584C5F1F27E29A022275DA /* ConnectingView.swift */,
+				667D820C21815B7ACA2C0783 /* ContentView.swift */,
+				4F8C48CC7D547EA322461287 /* DisconnectedView.swift */,
+				FFDA89DC51C204A740D9AAEA /* ErrorView.swift */,
+				9D4A5E81B2AA4D3A20F973B9 /* Morild.swift */,
+				249F3C882420F769D8526A36 /* ReconnectingView.swift */,
+			);
+			path = Morild;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A84C83EE8E4EEFC685CD0CD /* Morild Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEEC6D5051F566D76CD3BB0 /* Build configuration list for PBXNativeTarget "Morild Watch App" */;
+			buildPhases = (
+				AE9BC43DA06431A7566A0381 /* Sources */,
+				88392104716BFBADA97E4F15 /* Resources */,
+				4B58204B21A3CA059BD73899 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Morild Watch App";
+			packageProductDependencies = (
+				30355CF15B3CBBB6207AFB2C /* LiveViewNative */,
+				6F1C5BA250D15D8D756FF756 /* LiveViewNativeLiveForm */,
+			);
+			productName = "Morild Watch App";
+			productReference = 0CD5C4040E7220A4EE0F6265 /* Morild Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE9BA3F3E94907ADB2AA1B92 /* Morild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0576EF0FB0A3526D8D3ADA /* Build configuration list for PBXNativeTarget "Morild" */;
+			buildPhases = (
+				1154339DC614BC222B2113B6 /* Sources */,
+				3748C7C119DC5D5BB97DB403 /* Resources */,
+				CE3950ADCF965E532F0B44C3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Morild;
+			packageProductDependencies = (
+				2106F84F3538CFB7824302A5 /* LiveViewNative */,
+				A1F95BDE20405F5006B28533 /* LiveViewNativeLiveForm */,
+			);
+			productName = Morild;
+			productReference = 8191239995B894B11859277C /* Morild.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B71828463D0FCE0B2F698080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 5BC80FBA3F6CE5141B1D994B /* Build configuration list for PBXProject "Morild" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BBA634F773C34357A626147E;
+			packageReferences = (
+				CB3CF204FFB369E25916A929 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */,
+				B41A0B7E46D3103557ADD8A3 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE9BA3F3E94907ADB2AA1B92 /* Morild */,
+				1A84C83EE8E4EEFC685CD0CD /* Morild Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3748C7C119DC5D5BB97DB403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33164CE396073FF8F2B41783 /* Assets.xcassets in Resources */,
+				500502ACA46CC9EE9006DC4B /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88392104716BFBADA97E4F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44119940C1FA0CE59F44A519 /* Assets.xcassets in Resources */,
+				DFC89B17AED5A24A5242F919 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1154339DC614BC222B2113B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E44DF2AA235E045FE4594C /* ConnectingView.swift in Sources */,
+				35AAB8CD7D675E08E158DCAD /* ContentView.swift in Sources */,
+				EF2AE2C8C4F259D52B7040D0 /* DisconnectedView.swift in Sources */,
+				AF6F84FE4C08AE3F683469F6 /* ErrorView.swift in Sources */,
+				9E828AA0E23842EF31358E7E /* Morild.swift in Sources */,
+				3C18EC87B5EF72944AF44065 /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9BC43DA06431A7566A0381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7F7881D9A0CCD950FEE24C /* ConnectingView.swift in Sources */,
+				A9EB8BF0F78D6061D5E1CF31 /* ContentView.swift in Sources */,
+				3E9019DB575EA0F66DB6B7A5 /* DisconnectedView.swift in Sources */,
+				106A7C44778625A798949E83 /* ErrorView.swift in Sources */,
+				6BFDC27919082FA165FEF50B /* Morild.swift in Sources */,
+				2C1DA1B2405D2A12A0681E04 /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FBC468B1FE8AC7B9C481119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Morild.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		4C19F84D5019A593A9AF45F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Morild.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		534780C20303AC4A226D3D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Morild;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Debug;
+		};
+		8A78D00F7C741010D43ABA02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Morild;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.Morild;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		8FB5736A5D27CA20DC44155D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Morild;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Release;
+		};
+		EFA9A6E14F6B1D0F1713D1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Morild;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.Morild;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC80FBA3F6CE5141B1D994B /* Build configuration list for PBXProject "Morild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A78D00F7C741010D43ABA02 /* Debug */,
+				EFA9A6E14F6B1D0F1713D1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7FEEC6D5051F566D76CD3BB0 /* Build configuration list for PBXNativeTarget "Morild Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBC468B1FE8AC7B9C481119 /* Debug */,
+				4C19F84D5019A593A9AF45F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB0576EF0FB0A3526D8D3ADA /* Build configuration list for PBXNativeTarget "Morild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534780C20303AC4A226D3D1F /* Debug */,
+				8FB5736A5D27CA20DC44155D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B41A0B7E46D3103557ADD8A3 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-native-live-form";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+		CB3CF204FFB369E25916A929 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-client-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2106F84F3538CFB7824302A5 /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB3CF204FFB369E25916A929 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+		30355CF15B3CBBB6207AFB2C /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB3CF204FFB369E25916A929 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+		6F1C5BA250D15D8D756FF756 /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B41A0B7E46D3103557ADD8A3 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+		A1F95BDE20405F5006B28533 /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B41A0B7E46D3103557ADD8A3 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B71828463D0FCE0B2F698080 /* Project object */;
+}
